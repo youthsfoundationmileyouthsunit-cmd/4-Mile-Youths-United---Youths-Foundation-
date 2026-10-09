@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Four Mile Youths United – Youth Foundation in Four Mile, Port Moresby, NCD, Papua New Guinea. Unity, pride and action for a cleaner, safer and stronger community.">
-<meta property="og:title" content="Four Mile Youths United – Youth Foundation">\n<meta property="og:description" content="Unity, pride and action for a cleaner, safer and stronger Four Mile. Community project and partnership enquiries welcome.">\n<title>Four Mile Youths United – Youth Foundation</title>
+<meta property="og:title" content="Four Mile Youths United – Youth Foundation">
+<meta property="og:description" content="Unity, pride and action for a cleaner, safer and stronger Four Mile. Community project and partnership enquiries welcome.">\n<title>Four Mile Youths United – Youth Foundation</title>
 <style>
 :root{--black:#10130f;--green:#159447;--gold:#f6c928;--red:#d62828;--white:#fff;--muted:#eef3ee}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#17211a;line-height:1.65;background:#fff}
@@ -34,6 +35,23 @@ h1{font-size:clamp(2.1rem,6vw,4.5rem);line-height:1.04;margin:12px 0 18px;text-t
 .status-note{display:inline-block;background:#fff3c4;color:#5e4900;font-weight:800;font-size:.82rem;padding:6px 10px;border-radius:30px;letter-spacing:.2px}
 @media(max-width:760px){.readiness-list{grid-template-columns:1fr}.readiness-top{gap:12px}}
 
+
+/* News, stories, photo gallery and video section */
+.media-intro{max-width:780px;margin:0 auto 28px;text-align:center;color:#536056}
+.story-grid,.gallery-grid,.video-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.story-card,.media-card{border:1px solid #dfe7df;border-radius:13px;overflow:hidden;background:#fff;box-shadow:0 6px 22px #0c27120b}
+.story-body,.media-body{padding:20px}
+.story-tag{display:inline-block;background:#e6f4e9;color:#126c35;border-radius:30px;padding:4px 9px;font-size:.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.4px}
+.story-card h3,.media-card h3{margin:12px 0 8px}
+.story-card p,.media-card p{margin:0;color:#526056}
+.story-meta{font-size:.82rem;color:#657166;margin-top:12px}
+.gallery-placeholder,.video-placeholder{min-height:190px;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;background:linear-gradient(135deg,#edf3ed,#dce8dd);color:#385442;font-weight:800}
+.gallery-placeholder span,.video-placeholder span{display:block;font-size:2rem;margin-bottom:8px}
+.video-placeholder{background:linear-gradient(135deg,#101711,#245b37);color:#fff}
+.media-tip{margin-top:22px;padding:18px 20px;border-left:4px solid var(--gold);background:#fff9df;border-radius:8px;color:#554a20}
+.media-tip strong{color:#302700}
+@media(max-width:760px){.story-grid,.gallery-grid,.video-grid{grid-template-columns:1fr}}
+
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.contact-box{padding:24px;border-radius:12px;border:1px solid #dfe7df;background:#fff}.contact-box p{margin:8px 0}.contact-box a{overflow-wrap:anywhere;color:#117b3c;font-weight:700}.note{font-size:.9rem;color:#657166}
 footer{background:#090d0a;color:#dce5dc;padding:28px 20px;text-align:center;border-top:4px solid var(--gold)}footer p{margin:5px}
 @media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}nav{gap:12px}.hero{padding:48px 18px}.grid{grid-template-columns:1fr}.about-grid,.contact-grid{grid-template-columns:1fr}.wrap{padding:42px 18px}}
@@ -43,7 +61,7 @@ footer{background:#090d0a;color:#dce5dc;padding:28px 20px;text-align:center;bord
 <div class="topline"></div>
 <header><div class="nav">
 <a class="brand" href="#home">FOUR MILE YOUTHS UNITED<span>YOUTH FOUNDATION · NCD, PNG</span></a>
-<nav aria-label="Main navigation"><a href="#about">About</a><a href="#work">Our Work</a><a href="#readiness">Our Commitment</a><a href="#vision">Vision & Mission</a><a href="#contracts">Small Contracts</a><a href="#contact">Contact</a></nav>
+<nav aria-label="Main navigation"><a href="#about">About</a><a href="#work">Our Work</a><a href="#readiness">Our Commitment</a><a href="#stories">Stories & Media</a><a href="#vision">Vision & Mission</a><a href="#contracts">Small Contracts</a><a href="#contact">Contact</a></nav>
 </div></header>
 <main>
 <section class="hero" id="home"><div class="hero-inner">
@@ -93,6 +111,58 @@ footer{background:#090d0a;color:#dce5dc;padding:28px 20px;text-align:center;bord
 </div>
 <p class="note" style="margin-top:20px">We will add genuine activity photos and project updates as our work begins. Until then, this website explains our purpose, planned service areas and how potential partners can contact us.</p>
 </div>
+</div></section>
+
+
+<section class="soft" id="stories"><div class="wrap">
+  <div class="section-head">
+    <div class="eyebrow">News · Stories · Media</div>
+    <h2>Our Stories & Community Updates</h2>
+    <p>Follow our purpose, priorities and progress. We will share genuine stories, photos and videos as activities take place.</p>
+  </div>
+  <div class="story-grid">
+    <article class="story-card"><div class="story-body">
+      <span class="story-tag">Our Story</span>
+      <h3>Why Four Mile Youths United Exists</h3>
+      <p>We believe young people can contribute positively when they work together. Our foundation aims to encourage unity, community responsibility, cleanliness and practical youth participation in Four Mile and across NCD.</p>
+      <div class="story-meta">Foundation introduction · Not a report of a completed project</div>
+    </div></article>
+    <article class="story-card"><div class="story-body">
+      <span class="story-tag">Our Priorities</span>
+      <h3>Cleaner Spaces, Stronger Community</h3>
+      <p>We want to work with residents and suitable partners on community cleanliness, youth awareness and activities that encourage respect, teamwork and care for shared spaces.</p>
+      <div class="story-meta">Our priorities · Planned areas of work</div>
+    </div></article>
+    <article class="story-card"><div class="story-body">
+      <span class="story-tag">Partnerships</span>
+      <h3>Seeking Our First Project Opportunity</h3>
+      <p>We welcome conversations with businesses, public agencies, churches, NGOs and other organizations interested in discussing a suitable first community project with our foundation.</p>
+      <div class="story-meta">Current update · Seeking an opportunity</div>
+    </div></article>
+  </div>
+
+  <div class="section-head" style="margin-top:56px">
+    <div class="eyebrow">Photo Gallery</div>
+    <h2>Real Moments, Shared With Permission</h2>
+    <p>Our gallery will feature genuine photos from meetings, volunteer activities and community projects as they occur. No completed-project photos are being claimed at this time.</p>
+  </div>
+  <div class="gallery-grid">
+    <article class="media-card"><div class="gallery-placeholder"><div><span>＋</span>Add your first genuine photo here</div></div><div class="media-body"><h3>Foundation Activities</h3><p>Replace this placeholder when you have a real photo from an activity or meeting.</p></div></article>
+    <article class="media-card"><div class="gallery-placeholder"><div><span>＋</span>Add a community photo here</div></div><div class="media-body"><h3>Community & Youth</h3><p>Use photos only when you have permission from the people shown.</p></div></article>
+    <article class="media-card"><div class="gallery-placeholder"><div><span>＋</span>Add a project photo here</div></div><div class="media-body"><h3>Project Progress</h3><p>Add photos after a project or activity actually takes place.</p></div></article>
+  </div>
+
+  <div class="section-head" style="margin-top:56px">
+    <div class="eyebrow">Video Updates</div>
+    <h2>Watch Our Journey</h2>
+    <p>Short videos can introduce the foundation, explain community priorities and document genuine activities as they happen.</p>
+  </div>
+  <div class="video-grid">
+    <article class="media-card"><div class="video-placeholder"><div><span>▶</span>Video space 1</div></div><div class="media-body"><h3>Meet the Foundation</h3><p>Add a published YouTube video here when your introduction video is ready.</p></div></article>
+    <article class="media-card"><div class="video-placeholder"><div><span>▶</span>Video space 2</div></div><div class="media-body"><h3>Community Awareness</h3><p>Use this space for an awareness message or an update you have actually recorded.</p></div></article>
+    <article class="media-card"><div class="video-placeholder"><div><span>▶</span>Video space 3</div></div><div class="media-body"><h3>Activity Updates</h3><p>Share genuine footage after activities take place, with appropriate permission.</p></div></article>
+  </div>
+  <div class="media-tip"><strong>Website update note:</strong> These are clearly labelled placeholders, not photos or videos of completed work. See <em>HOW_TO_UPDATE_CONTENT.txt</em> included in the website package for simple GitHub instructions.</div>
 </div></section>
 
 <section id="vision"><div class="wrap">

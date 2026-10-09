@@ -1,0 +1,53 @@
+FOUR MILE YOUTHS UNITED – WEBSITE UPDATE
+Stories, Photo Gallery and Videos
+================================================
+
+FILES IN THIS PACKAGE
+- index.html: updated website page
+- four-mile-youths-united-logo.png: existing foundation logo
+- media/README.txt: notes for adding real photos later
+
+WHAT THIS UPDATE DOES
+- Adds a Stories & Media link to the navigation.
+- Adds three honest introductory stories about the foundation, its priorities and the search for a first project.
+- Adds a photo gallery with clearly labelled placeholders.
+- Adds video spaces with instructions for future YouTube videos.
+- Keeps the website transparent: it does not claim that projects have already been completed.
+- Keeps the existing contact and foundation sections from the previous website.
+
+HOW TO UPLOAD ON GITHUB USING YOUR ANDROID PHONE
+1. Download the ZIP and extract it using your phone's Files app.
+2. Open your repository:
+   https://github.com/bobbydorpar19-collab/4-mile-youths-united
+3. Open the repository's main page and choose Add file, then Upload files.
+4. Select the new index.html and four-mile-youths-united-logo.png from the extracted folder.
+5. If GitHub asks about the existing files, choose to replace/overwrite them. Do not rename index.html.
+6. Scroll down and commit the changes to the main branch.
+7. Wait a few minutes, then refresh your website:
+   https://bobbydorpar19-collab.github.io/4-mile-youths-united/
+
+IMPORTANT: If your mobile GitHub view does not allow replacing the files easily, open the browser menu and select Desktop site, then repeat the upload steps. Do not delete the repository.
+
+HOW TO ADD A REAL PHOTO LATER
+1. Save a genuine photo to your phone and use a short filename, such as first-foundation-meeting.jpg.
+2. In GitHub, open the media folder (create it if needed), choose Add file > Upload files, and upload the photo.
+3. To make it appear on the page, edit index.html and replace one of the photo placeholder blocks with:
+   <img src="media/first-foundation-meeting.jpg" alt="A genuine description of the photo" style="width:100%;height:190px;object-fit:cover">
+4. Commit the changes and refresh the live website.
+
+HOW TO ADD A YOUTUBE VIDEO LATER
+1. Upload the video to YouTube and set its visibility as you prefer.
+2. Open the video, choose Share, then Embed (if available), and copy the iframe embed code.
+3. In index.html, replace one video-placeholder block with the iframe code. Example:
+   <iframe width="100%" height="220" src="https://www.youtube.com/embed/VIDEO_ID" title="Four Mile Youths United video" loading="lazy" allowfullscreen></iframe>
+4. Replace VIDEO_ID with the actual ID from your own YouTube video. Do not leave the example text as-is.
+5. Commit changes and refresh the live website.
+
+STORIES
+To update a story, edit the story headline and paragraph text inside index.html. Use truthful labels such as “Foundation introduction”, “Planned activity”, or “Project update”. Only call something a completed project after it has happened.
+
+PRIVACY AND TRUST
+- Ask permission before publishing identifiable people, especially children.
+- Do not post private contact details or sensitive information.
+- Do not use stock images or unrelated footage as if they show your own foundation.
+- Keep dates and descriptions accurate.
